@@ -1,0 +1,82 @@
+body {
+  font-family: roboto;
+  font-size: 12px;
+  color: grey;
+  line-height: 20px;
+}
+
+
+
+
+
+@media (min-width: 540px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    padding: 40px;
+    width: 500px;
+    margin: 0px auto;
+  }
+
+  .banner {
+    background-image: url('https://source.unsplash.com/random');
+    background-position: cover;
+    height: 400px;
+    padding-top: 60px;
+    text-align: center;
+    line-height: 35px;
+    color: pink;
+  }
+    h1 {
+      font-family: dosis;
+      font-size: 50px;
+    }
+
+    h2 {
+      font-family: dosis;
+      font-size: 36px;
+    }
+
+}
+
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 20px;
+  }
+
+  .banner {
+    background-image: url('https://source.unsplash.com/random');
+    background-position: cover;
+    height: 150px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 15px;
+    color: pink;
+  }
+
+  h1 {
+    font-family: dosis;
+    font-size: 20px;
+  }
+
+  h2 {
+    font-family: dosis;
+    font-size: 16px;
+  }
+}
+
+
+a {
+  background-color: grey;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: yellow;
+  text-decoration: none;
+}
